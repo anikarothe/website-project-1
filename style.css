@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -23,14 +23,7 @@ body {
 .bg-green {
     background-color: #E0E6DC;
     color: #192B37;
-
-
-
-
-
-
-
-/* Header styles */
+}
 
 Header {
     background-image: url('/images/Bailey-1.jpg');
@@ -42,3 +35,8 @@ header h3 {
     font-size: 5.5rem;
     line-height: 1;
 }
+
+
+
+
+

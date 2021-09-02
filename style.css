@@ -80,11 +80,11 @@ h2, h3, h4, h5, h6 {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -179,7 +179,7 @@ img {
 }
 
 .bg-featured    { background-color: black;}
-.bg-light       { background-color: rgb(245,245,245);}
+.bg-light       { background-color: #F8F2EC;}
 
 .bg-image {
     background-color: rgb(240,240,240);
@@ -207,7 +207,7 @@ img {
 
 
 /* Background images */
-.bg-brew {
+.bg-dog {
     background-image: url('/images/Bailey-3.jpg');
     border-radius: 10px;
 }
@@ -223,9 +223,39 @@ img {
     border-radius: 10px;
 }
 
+.bg-skin-care {
+    background-image: url('/images/Intensive-skin-care.jpg');
+    border-radius: 10px;
+}
+
+.bg-chronic-pain {
+    background-image: url('/images/chronic-pain.jpg');
+    border-radius: 10px;
+}
+
+.bg-sunscreen {
+    background-image: url('/images/Save-my-cells.jpg');
+    border-radius: 10px;
+}
+
 .bg-lemons {
     background-image: url('/images/Bailey-2.jpg');
     background-size: cover;
+}
+
+.bg-plant {
+    background-image: url('/images/Bailey-4.jpg');
+    background-size: cover;
+}
+
+.bg-beach {
+    background-image: url('/images/beach.jpg');
+    border-radius: 10px;
+}
+
+.bg-massage {
+    background-image: url('/images/massge.jpg');
+    border-radius: 10px;
 }
 
 .bg-bailey-2 {
@@ -238,6 +268,42 @@ img {
     background-image: url('/images/Bailey-11.jpg');
     background-size: cover;
     border-radius: 10px;
+}
+
+.bg-bailey-12 {
+    background-image: url('/images/Bailey-12.jpg');
+}
+
+.bg-bailey-13 {
+    background-image: url('/images/Bailey-13.jpg');
+}
+
+.bg-bailey-14 {
+    background-image: url('/images/Bailey-14.jpg');
+}
+
+.bg-bailey-15 {
+    background-image: url('/images/Bailey-15.jpg');
+}
+
+.bg-bailey-16 {
+    background-image: url('/images/Bailey-16.jpg');
+}
+
+.bg-bailey-17 {
+    background-image: url('/images/Bailey-17.jpg');
+}
+
+.bg-bailey-18 {
+    background-image: url('/images/Bailey-18.jpg');
+}
+
+.bg-bailey-19 {
+    background-image: url('/images/Bailey-19.jpg');
+}
+
+.bg-bailey-20 {
+    background-image: url('/images/Bailey-20.jpg');
 }
 
 
@@ -278,4 +344,10 @@ img {
 
 .card:hover {
     box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+}
+
+.card-2 {
+    border: 10px solid #E0E6DC;
+    background-color: #E0E6DC;
+    border-radius: 10px;
 }

@@ -120,7 +120,7 @@ a:hover {
 .text-center    { text-align: center;   }
 .text-right     { text-align: right;    }
 
-.featured-text { color: #E0E6DC;}
+.featured-text { color: #5F7F4E;}
 .light-text { color: white; }
 
 .font-weight-light      {font-weight: 200;      }
@@ -215,7 +215,6 @@ img {
 .bg-bailey {
     background-image: url('/images/Bailey-7.jpg');
     background-size: cover;
-    min-height: 10rem;
 }
 
 .bg-cbd {
@@ -256,6 +255,16 @@ img {
 .bg-massage {
     background-image: url('/images/massge.jpg');
     border-radius: 10px;
+}
+
+.bg-buddha {
+    background-image: url('/images/Bailey-6.jpg');
+    background-size: cover;
+}
+
+.bg-farmers-market {
+    background-image: url('/images/Bailey-8.jpg');
+    border-radius: 1000px;
 }
 
 .bg-bailey-2 {
@@ -315,7 +324,21 @@ img {
     font-size: 6rem;
 }
 
-/* --------------- Testimonial Styles -------------------  */
+.fab {
+    display: block;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color:grey;
+}
+/* --------------- Testimonial block -------------------  */
 
 .quote-icon {
     font-size: 6rem;
@@ -324,15 +347,21 @@ img {
     line-height: 1;
 }
 
+/* ------------------ Buttons & forms ------------------ */
+
 .link-button {
     background-color: #5F7F4E;
     color: white;
     text-transform: uppercase;
     border-radius: 25px;
+    border: none;
+    appearance: none;
     padding: 0.5rem 2rem;
     display: inline-block;
     transition: 1s all;
     margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-family: inherit;
     box-shadow: 0px 13px 27px -5px rgba(50,50,93,0.25);
     box-shadow: 0px 8px 16px -8px rgba(0,0,0,0.3);
 }
@@ -351,3 +380,28 @@ img {
     background-color: #E0E6DC;
     border-radius: 10px;
 }
+
+.card-2:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+}
+
+input,
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 1px solid lightgrey;
+    outline: none;
+    background-color: #E0E6DC;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #5F7F4E;
+}
+
+

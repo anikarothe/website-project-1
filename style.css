@@ -218,6 +218,9 @@ img {
 
 .bg-cbd {
     background-image: url('/images/Bailey-5.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 40%;
 }
 
 .bg-skin-care {
@@ -258,6 +261,8 @@ img {
 .bg-buddha {
     background-image: url('/images/Bailey-6.jpg');
     background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 67%;
 }
 
 .bg-farmers-market {
@@ -423,9 +428,10 @@ textarea:focus {
   .show-md { display: block; }
   .hide-md { display: none;  }
 
-  .md-tall-80 { min-height: 80vh;}
+  .md-tall-70 { min-height: 70vh;}
 
   header h3 {font-size: 7.7vw;}
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
@@ -487,6 +493,8 @@ textarea:focus {
     background-position-x: 8%;
     background-position-y: 50%;
   }
+
+
 }
 
 
